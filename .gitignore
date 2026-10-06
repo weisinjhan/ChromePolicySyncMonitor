@@ -1,0 +1,34 @@
+# Runtime data can contain computer/user names, local paths and registry state.
+/data/
+
+# Built on demand from CdpProbeHelper.cs.
+/CdpProbeHelper.exe
+/CdpProbeHelper.pdb
+
+# Local editor and operating-system files.
+/.vscode/
+/.idea/
+*.user
+*.suo
+Thumbs.db
+Desktop.ini
+
+# Logs, local reports and measurement exports.
+*.log
+*.csv
+backup-*.json
+validation-*.txt
+probe-*.txt
+
+# Common secret and credential files. Do not commit these.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.kdbx
+credentials*.json
+secrets*.json
+auth*.json
